@@ -8,7 +8,8 @@ img:not(.icon){
 /* container */
 .gridContainer{
     display: grid;
-    grid-template: 1fr 4fr/ 1fr 4fr;
+    grid-template-rows: auto 4fr;
+    grid-template-columns: 1fr 4fr;
 
 }
 body{
