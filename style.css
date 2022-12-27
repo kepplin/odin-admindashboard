@@ -124,11 +124,13 @@ header{
 .greeting{
     padding: 0;
     margin: 0;
+    letter-spacing: 1px;
 }
 .largeUsername{
     padding: 0;
     margin: 0;
     font-size: 1.5em;
+    letter-spacing: 1px;
 }
 .buttonsDiv{
     display: flex;
