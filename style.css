@@ -191,16 +191,43 @@ input:focus{
 main{
     display: grid;
     grid-template-columns: 3fr 1fr;
-    background-color: var(--background-color)
+    background-color: var(--background-color);
+    gap: 20px;
+    padding: 40px 25px 25px 25px;
 }
 /* your projects */
 .projectsContainer{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    gap: 20px;
 }
 .projectsPic{
-    width: 50%;
-    height: 50%;
+    max-width: 650px;
+    width: 100%;
+    height: auto;
+}
+.projects{
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+    gap: 15px;
+    box-shadow: 0px 6px 15px 1px rgba(0,0,0,0.15);
+    border-left: 9px solid #73C978;
+}
+.projectsButton{
+    display: flex;
+    justify-content: flex-end;
+}
+.projectsButton .icon{
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+}
+.projectsTitle{
+    margin-bottom: 20px;
 }
 /* announcements */
 .secondColumn{
