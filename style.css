@@ -190,11 +190,17 @@ input:focus{
 /* main */
 main{
     display: grid;
-    grid-template-columns: 2fr 1fr;
+    grid-template-columns: 3fr 1fr;
     background-color: var(--background-color)
 }
-.projects{
-    height: 200px;
+/* your projects */
+.projectsContainer{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.projectsPic{
+    width: 50%;
+    height: 50%;
 }
 /* announcements */
 .secondColumn{
