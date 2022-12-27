@@ -51,7 +51,7 @@ header .icon{
 .topHeader{
     display: flex;
     align-items: center;
-    gap: 20px
+    gap: 20px;
 }
 input{
     display: flex;
@@ -135,6 +135,7 @@ header{
 .buttonsDiv{
     display: flex;
     gap: 40px;
+    flex-shrink: 1;
 }
     /* header buttons */
 .headerButton{
@@ -205,7 +206,7 @@ main{
 /* your projects */
 .projectsContainer{
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(275px, 1fr));
     gap: 20px;
 }
 .projectsPic{
