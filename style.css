@@ -30,6 +30,7 @@ header{
 
     background-color: blue;
 }
+    /* top header */
 .topHeader{
     display: flex;
     align-items: center;
@@ -53,6 +54,19 @@ input{
     align-items: center;
     gap: 50px;
 
+}
+    /* bottom header */
+.bottomHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.greetingsDiv{
+    display: flex;
+}
+.buttonsDiv{
+    display: flex;
+    gap: 50px;
 }
 /* main */
 main{
