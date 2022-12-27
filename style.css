@@ -108,7 +108,7 @@ input[type="search"]::-webkit-search-cancel-button:hover{
 }
 header{
     position: sticky;
-    top: -4.9em;
+    top: -4.55em;
 }
 .greetingsDiv{
     display: flex;
