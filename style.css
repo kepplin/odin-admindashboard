@@ -2,15 +2,14 @@
 .largePfp,
 .pfp, 
 img:not(.icon){
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
 }
 /* container */
 .gridContainer{
     display: grid;
     grid-template-rows: auto 4fr;
     grid-template-columns: 1fr 4fr;
-
 }
 body{
     margin: 0;
@@ -28,11 +27,34 @@ body{
 }
 /* header */
 header{
-    display: grid;
-    grid-area: 1 / 2 / span 1 / span 3;
+
     background-color: blue;
-    border: 1px solid white;
 }
+.topHeader{
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+input{
+    display: flex;
+    flex: 1;
+}
+.searchField{
+    display: flex;
+    flex: 1;
+    align-items: center;
+    margin: 0px 200px 0px 50px;
+}
+.pfp{
+    border-radius: 100%;
+}
+.userInfoBell{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+/* main */
 main{
     display: grid;
     grid-template-columns: 2fr 1fr;
