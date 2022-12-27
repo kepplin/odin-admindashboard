@@ -55,7 +55,7 @@ input{
     padding: 0px 20px;
     height: 2.25em;
 }
-.searchField{
+form{
     display: flex;
     flex: 1;
     align-items: center;
@@ -83,6 +83,12 @@ input[type="search"]::-webkit-search-cancel-button{
 }
 input[type="search"]::-webkit-search-cancel-button:hover{
     cursor: pointer;
+}
+.magnifyButton{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    background-color: white;
 }
     /* bottom header */
 .bottomHeader{
@@ -114,7 +120,7 @@ input[type="search"]::-webkit-search-cancel-button:hover{
     display: flex;
     gap: 40px;
 }
-button{
+.headerButton{
     border-radius: 30px;
     border: 1px solid #50C878;
     font-size: 1em;
