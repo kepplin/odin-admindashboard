@@ -194,6 +194,7 @@ main{
     background-color: var(--background-color);
     gap: 20px;
     padding: 40px 25px 25px 25px;
+    height: 100%;
 }
 /* your projects */
 .projectsContainer{
@@ -220,14 +221,28 @@ main{
 .projectsButton{
     display: flex;
     justify-content: flex-end;
-}
-.projectsButton .icon{
-    width: 30px;
-    height: 30px;
-    margin-left: 15px;
+    gap: 15px;
 }
 .projectsTitle{
     margin-bottom: 20px;
+}
+a{
+    padding: 0;
+    margin: 0;
+}
+    /* project buttons animations */
+.projectsButton .icon{
+    width: 30px;
+    height: 30px;
+}
+.projectsButton .icon:hover,
+.projectsButton .icon:focus{
+    cursor: pointer;
+    animation: spin .5s cubic-bezier(.36,.07,.19,.97);
+}
+@keyframes spin {
+    from {transform:rotate(0deg);}
+    to {transform:rotate(360deg);}
 }
 /* announcements */
 .secondColumn{
