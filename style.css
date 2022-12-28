@@ -33,6 +33,51 @@ body{
 .sidebar > *{
     margin: 0;
 }
+.sidebarContent{
+    display: flex;
+    flex-direction: column;
+    gap: 70px;
+    align-items: flex-start;
+}
+.dashboardText{
+    color: white;
+}
+.logoDiv{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 30px 0px 0px 35px;
+}
+.logo{
+    width: 70px;
+    height: 70px;
+}
+.mainLinks{
+    display: flex;
+    flex-direction: column;
+}
+.supportLinks{
+    display: flex;
+    flex-direction: column;
+}
+ul {
+    color: white;
+    display: flex;
+    gap: 20px;
+    margin-left: 60px;
+}
+li{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 1.5em;
+
+    letter-spacing: 1px;
+}
+li img{
+    width: 30px;
+    height: 30px;
+}
 /* header */
 header{
     background-color: rgb(255, 255, 255);
@@ -201,7 +246,6 @@ main{
     background-color: var(--background-color);
     gap: 20px;
     padding: 40px 25px 25px 25px;
-    height: 100%;
 }
 /* your projects */
 .projectsContainer{
