@@ -71,12 +71,33 @@ li{
     align-items: center;
     gap: 30px;
     font-size: 1.5em;
-
     letter-spacing: 1px;
 }
 li img{
     width: 30px;
     height: 30px;
+    cursor: pointer;
+}
+.linksUnder {
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+}
+.linksUnder:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #50C878;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+}
+.linksUnder:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
 }
 /* header */
 header{
