@@ -223,7 +223,7 @@ input:focus{
 .bell:hover,
 .bell:focus{
     cursor: pointer;
-    animation: bellshake .5s cubic-bezier(.36,.07,.19,.97) 
+    animation: bellshake .5s cubic-bezier(.36,.07,.19,.97);
 }
 .bell{
     transition: 50ms;
@@ -287,15 +287,18 @@ a{
 .projectsButton .icon{
     width: 30px;
     height: 30px;
+    transition: 300ms;
 }
 .projectsButton .icon:hover,
 .projectsButton .icon:focus {
     cursor: pointer;
     animation: spin .5s cubic-bezier(.36,.07,.19,.97);
+    transform: scale(1.5);
 }
 @keyframes spin {
-    from {transform:rotate(0deg);}
-    to {transform:rotate(360deg);}
+    from {transform: scale(1) rotate(0deg);
+    }
+    to {transform: scale(1.5) rotate(360deg);}
 }
 /* announcements */
 .secondColumn{
