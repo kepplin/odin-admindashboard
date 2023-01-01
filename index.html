@@ -1,189 +1,386 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
- <div class="gridContainer">
-     <!-- header -->
-     <header>
-     <div class="topHeader">
-                 <form action="">
-                    <button class="magnifyButton resetButton"><img src="img/magnify.png" alt="Search" class="icon"></button>
-                     <input type="search">
-                 </form>
-             <div class="userInfoBell">
-                 <img src="img/bell-badge-outline.png" alt="No notifications" class="icon bell" tabindex="0">
-                 <button class="pfpButton resetButton"><img src="img/blacksquare.jpg" alt="Profile Picture" class="pfp"></button>
-                 <button class="usernameButton resetButton">
-                     <p><strong>Pranav Borse</strong></p>
-                 </button>
-             </div>
-     </div>
-     <div class="bottomHeader">
-         <div class="greetingsDiv">
-             <img src="img/blacksquare.jpg" alt="Profile Picture" class="largePfp">
-             <div class="greetingsDivText">
-                 <p class="greeting">Hi there,</p>
-                 <p class="largeUsername">Pranav Borse (@pranav)</p>
-             </div>
-         </div>
-         <div class="buttonsDiv">
-             <button class="headerButton">New</button>
-             <button class="headerButton">Upload</button>
-             <button class="headerButton">Share</button>
-         </div>
-     </div>
-     </header>
-     <!-- sidebar -->
-     <div class="sidebar">
-        <div class="sidebarContent">
-            <div class="logoDiv">
-                <img src="img/view-dashboard.png" alt="Logo" class="logo">
-                <h1 class="dashboardText">Dashboard</h1>
-            </div>
-                    <ul class="mainLinks">
-                        <li class="links"><img src="img/home-outline.png" alt="Home" class="icon"><p class="linksUnder">Home</p></li>
-                        <li class="links"><img src="img/account-outline.png" alt="Profile" class="icon"><p class="linksUnder">Profile</p></li>
-                        <li class="links"><img src="img/message-outline.png" alt="Messages" class="icon"><p class="linksUnder">Messages</p></li>
-                        <li class="links"><img src="img/history.png" alt="History" class="icon"><p class="linksUnder">History</p></li>
-                        <li class="links"><img src="img/calendar-check-outline.png" alt="Tasks" class="icon"><p class="linksUnder">Tasks</p></li>
-                        <li class="links"><img src="img/account-group-outline.png" alt="Communities" class="icon"><p class="linksUnder">Communities</p></li>
-                    </ul>
-                    <ul class="supportLinks">
-                        <li class="links"><img src="img/cog-outline.png" alt="Settings" class="icon"><p class="linksUnder">Settings</p></li>
-                        <li class="links"><img src="img/help-circle-outline.png" alt="Support" class="icon"><p class="linksUnder">Support</p></li>
-                        <li class="links"><img src="img/shield-check-outline.png" alt="Privacy" class="icon"><p class="linksUnder">Privacy</p></li>
-                    </ul>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="gridContainer">
+      <!-- header -->
+      <header>
+        <div class="topHeader">
+          <form action="">
+            <button class="magnifyButton resetButton">
+              <img src="img/magnify.png" alt="Search" class="icon" />
+            </button>
+            <input type="search" />
+          </form>
+          <div class="userInfoBell">
+            <img
+              src="img/bell-badge-outline.png"
+              alt="No notifications"
+              class="icon bell"
+              tabindex="0"
+            />
+            <button class="pfpButton resetButton">
+              <img
+                src="img/blacksquare.jpg"
+                alt="Profile Picture"
+                class="pfp"
+              />
+            </button>
+            <button class="usernameButton resetButton">
+              <p><strong>Pranav Borse</strong></p>
+            </button>
+          </div>
         </div>
-     </div>
-     <!-- main -->
-     <main>
-     <!-- projects -->
-     <section class="projectsSection">
-        <h1 class="projectsTitle">Your Projects</h1>
-         <div class="projectsContainer">
-             <div class="projects">
-                 <h3>Landing Page</h3>
-                 <img src="img/landingpage.png" alt="Project: Landing Page" class="projectsPic">
-                 <div class="projectsButton">
-                     <a href="https://kepplin.github.io/odin-landingpage/" target="_blank" tabindex="-1">
-                        <img src="img/eye.png" alt="Go to website" class="icon" tabindex="0">
-                    </a>
-                     <a href="https://github.com/kepplin/odin-landingpage" target="_blank" tabindex="-1">
-                        <img src="img/github.png" alt="Go to repository" class="icon" tabindex="0">
-                    </a>
-                 </div>
-             </div>
-             <div class="projects">
-                 <h3>Sign-Up Form</h3>
-                 <img src="img/signupform.png" alt="Project: Sign up Form" class="projectsPic">
-                 <div class="projectsButton">
-                     <a href="https://kepplin.github.io/odin-signupform/" target="_blank" tabindex="-1">
-                        <img src="img/eye.png" alt="Go to website" class="icon" tabindex="0">
-                    </a>
-                     <a href="https://github.com/kepplin/odin-signupform" target="_blank" tabindex="-1">
-                        <img src="img/github.png" alt="Go to repository" class="icon" tabindex="0">
-                    </a>
-                 </div>
-             </div>
-             <div class="projects">
-                 <h3>Calculator</h3>
-                 <img src="img/calculator.png" alt="Project Calculator" class="projectsPic">
-      
-                 <div class="projectsButton">
-                     <a href="https://kepplin.github.io/odin-calculator/" target="_blank" tabindex="-1">
-                        <img src="img/eye.png" alt="Go to website" class="icon" tabindex="0">
-                    </a>
-                     <a href="https://github.com/kepplin/odin-calculator" target="_blank" tabindex="-1">
-                        <img src="img/github.png" alt="Go to repository" class="icon" tabindex="0"> 
-                    </a>
-                 </div>
-             </div>
-             <div class="projects">
-                 <h3>Etch-A-Sketch</h3>
-                 <img src="img/etchasketch.png" alt="Project: Etch-A-Sketch" class="projectsPic">
-        
-                 <div class="projectsButton">
-                     <a href="https://kepplin.github.io/odin-etchasketch/" target="_blank" tabindex="-1"><img src="img/eye.png" alt="Go to website" class="icon" tabindex="0"></a>
-                     <a href="https://github.com/kepplin/odin-etchasketch" target="_blank" tabindex="-1"><img src="img/github.png" alt="Go to repository" class="icon" tabindex="0"></a>
-                 </div>
-             </div>             
-             <div class="projects">
-                <h3>Rock-Paper-Scissors</h3>
-                <img src="img/rockpaperscissors.png" alt="Project: Rock-Paper-Scissors" class="projectsPic">
-         
-                <div class="projectsButton">
-                    <a href="https://kepplin.github.io/odin-rockpaperscissor/" target="_blank" tabindex="-1"><img src="img/eye.png" alt="Go to website" class="icon" tabindex="0"></a>
-                    <a href="https://github.com/kepplin/odin-rockpaperscissor" target="_blank" tabindex="-1"><img src="img/github.png" alt="Go to repository" class="icon" tabindex="0"></a>
-                </div>
+        <div class="bottomHeader">
+          <div class="greetingsDiv">
+            <img
+              src="img/blacksquare.jpg"
+              alt="Profile Picture"
+              class="largePfp"
+            />
+            <div class="greetingsDivText">
+              <p class="greeting">Hi there,</p>
+              <p class="largeUsername">Pranav Borse (@pranav)</p>
+            </div>
+          </div>
+          <div class="buttonsDiv">
+            <button class="headerButton">New</button>
+            <button class="headerButton">Upload</button>
+            <button class="headerButton">Share</button>
+          </div>
+        </div>
+      </header>
+      <!-- sidebar -->
+      <div class="sidebar">
+        <div class="sidebarContent">
+          <a href="">
+            <div class="logoDiv">
+              <img src="img/view-dashboard.png" alt="Logo" class="logo" />
+              <h1 class="dashboardText">Dashboard</h1>
+            </div>
+          </a>
+          <ul class="mainLinks">
+            <li class="links">
+              <img src="img/home-outline.png" alt="Home" class="icon" />
+              <p class="linksUnder">Home</p>
+            </li>
+            <li class="links">
+              <img src="img/account-outline.png" alt="Profile" class="icon" />
+              <p class="linksUnder">Profile</p>
+            </li>
+            <li class="links">
+              <img src="img/message-outline.png" alt="Messages" class="icon" />
+              <p class="linksUnder">Messages</p>
+            </li>
+            <li class="links">
+              <img src="img/history.png" alt="History" class="icon" />
+              <p class="linksUnder">History</p>
+            </li>
+            <li class="links">
+              <img
+                src="img/calendar-check-outline.png"
+                alt="Tasks"
+                class="icon"
+              />
+              <p class="linksUnder">Tasks</p>
+            </li>
+            <li class="links">
+              <img
+                src="img/account-group-outline.png"
+                alt="Communities"
+                class="icon"
+              />
+              <p class="linksUnder">Communities</p>
+            </li>
+          </ul>
+          <ul class="supportLinks">
+            <li class="links">
+              <img src="img/cog-outline.png" alt="Settings" class="icon" />
+              <p class="linksUnder">Settings</p>
+            </li>
+            <li class="links">
+              <img
+                src="img/help-circle-outline.png"
+                alt="Support"
+                class="icon"
+              />
+              <p class="linksUnder">Support</p>
+            </li>
+            <li class="links">
+              <img
+                src="img/shield-check-outline.png"
+                alt="Privacy"
+                class="icon"
+              />
+              <p class="linksUnder">Privacy</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!-- main -->
+      <main>
+        <!-- projects -->
+        <section class="projectsSection">
+          <h1 class="projectsTitle">Your Projects</h1>
+          <div class="projectsContainer">
+            <div class="projects">
+              <h3>Landing Page</h3>
+              <img
+                src="img/landingpage.png"
+                alt="Project: Landing Page"
+                class="projectsPic"
+              />
+              <div class="projectsButton">
+                <a
+                  href="https://kepplin.github.io/odin-landingpage/"
+                  target="_blank"
+                  tabindex="-1"
+                >
+                  <img
+                    src="img/eye.png"
+                    alt="Go to website"
+                    class="icon"
+                    tabindex="0"
+                  />
+                </a>
+                <a
+                  href="https://github.com/kepplin/odin-landingpage"
+                  target="_blank"
+                  tabindex="-1"
+                >
+                  <img
+                    src="img/github.png"
+                    alt="Go to repository"
+                    class="icon"
+                    tabindex="0"
+                  />
+                </a>
+              </div>
             </div>
             <div class="projects">
-                <h3>Recipes</h3>
-                <img src="img/recipes.png" alt="Project: Recipes" class="projectsPic">
-                <div class="projectsButton">
-                    <a href="https://kepplin.github.io/odin-recipes/index.html" target="_blank" tabindex="-1"><img src="img/eye.png" alt="Go to website" class="icon" tabindex="0"></a>
-                    <a href="https://github.com/kepplin/odin-recipes" target="_blank" tabindex="-1"><img src="img/github.png" alt="Go to repository" class="icon" tabindex="0"></a>
-                </div>
+              <h3>Sign-Up Form</h3>
+              <img
+                src="img/signupform.png"
+                alt="Project: Sign up Form"
+                class="projectsPic"
+              />
+              <div class="projectsButton">
+                <a
+                  href="https://kepplin.github.io/odin-signupform/"
+                  target="_blank"
+                  tabindex="-1"
+                >
+                  <img
+                    src="img/eye.png"
+                    alt="Go to website"
+                    class="icon"
+                    tabindex="0"
+                  />
+                </a>
+                <a
+                  href="https://github.com/kepplin/odin-signupform"
+                  target="_blank"
+                  tabindex="-1"
+                >
+                  <img
+                    src="img/github.png"
+                    alt="Go to repository"
+                    class="icon"
+                    tabindex="0"
+                  />
+                </a>
+              </div>
             </div>
-         </div>
-     </section>
-     <!-- announcements -->
-     <div class="secondColumn">
-         <section class="announcementsSection">
-             <h1 class="announcementsTitle">Announcements</h1>
-             <div class="announcementsContainer">
-                 <div class="announcements">
-                     <h4 style="color: red;">Bug Fixes!</h4>
-                     <p>A bug in the calculator where you cannot subtract negative numbers. Apart from that, all done.</p>
-                 </div>
-                 <div class="announcements">
-                     <h4 style="color: orange;">Consider Styling-</h4>
-                     <p>Rock-Paper-Scissors is currently lacking CSS. Etch-A-Sketch is looking a bit bland as well.</p>
-                 </div>
-                 <div class="announcements">
-                     <h4 style="color: blue;">Extra features?</h4>
-                     <p>Etch-A-Sketch could use some new features, such as a random colour mode, black and white only mode and the ability to toggle grid lines. Might want to refactor Rock-Paper-Scissors code...</p>
-                 </div>
-             </div>
-         </section>
-         <!-- trending -->
-         <section class="trendingSection">
-             <h1 class="trendingTitle">Trending</h1>
-             <div class="trendingContainer">
-                 <div class="trending">
-                     <img src="img/github.png" alt="Github" class="icon">
-                     <p>
-                         @kepplin<br>Pranav's Github
-                     </p>
-                 </div>
-                 <div class="trending">
-                     <img src="img/linkedin.png" alt="LinkedIn" class="icon">
-                     <p>
-                         @pranavsfakelinkedin<br>Pranav's LinkedIn
-                     </p>
-                 </div>
-                 <div class="trending">
-                     <img src="img/gmail.png" alt="Gmail" class="icon">
-                     <p>
-                         @pranavsfakeemail@gmail.com<br>Pranav's Gmail
-                     </p>
-                 </div>
-                 <div class="trending">
-                     <img src="img/twitter.png" alt="Twitter" class="icon">
-                     <p>
-                         @pranavsfaketwitter<br>Pranav's Twitter
-                     </p>
-                 </div>
-             </div>
-         </section>
-     </div>
-     </main>
- </div>
-</body>
+            <div class="projects">
+              <h3>Calculator</h3>
+              <img
+                src="img/calculator.png"
+                alt="Project Calculator"
+                class="projectsPic"
+              />
+
+              <div class="projectsButton">
+                <a
+                  href="https://kepplin.github.io/odin-calculator/"
+                  target="_blank"
+                  tabindex="-1"
+                >
+                  <img
+                    src="img/eye.png"
+                    alt="Go to website"
+                    class="icon"
+                    tabindex="0"
+                  />
+                </a>
+                <a
+                  href="https://github.com/kepplin/odin-calculator"
+                  target="_blank"
+                  tabindex="-1"
+                >
+                  <img
+                    src="img/github.png"
+                    alt="Go to repository"
+                    class="icon"
+                    tabindex="0"
+                  />
+                </a>
+              </div>
+            </div>
+            <div class="projects">
+              <h3>Etch-A-Sketch</h3>
+              <img
+                src="img/etchasketch.png"
+                alt="Project: Etch-A-Sketch"
+                class="projectsPic"
+              />
+
+              <div class="projectsButton">
+                <a
+                  href="https://kepplin.github.io/odin-etchasketch/"
+                  target="_blank"
+                  tabindex="-1"
+                  ><img
+                    src="img/eye.png"
+                    alt="Go to website"
+                    class="icon"
+                    tabindex="0"
+                /></a>
+                <a
+                  href="https://github.com/kepplin/odin-etchasketch"
+                  target="_blank"
+                  tabindex="-1"
+                  ><img
+                    src="img/github.png"
+                    alt="Go to repository"
+                    class="icon"
+                    tabindex="0"
+                /></a>
+              </div>
+            </div>
+            <div class="projects">
+              <h3>Rock-Paper-Scissors</h3>
+              <img
+                src="img/rockpaperscissors.png"
+                alt="Project: Rock-Paper-Scissors"
+                class="projectsPic"
+              />
+
+              <div class="projectsButton">
+                <a
+                  href="https://kepplin.github.io/odin-rockpaperscissor/"
+                  target="_blank"
+                  tabindex="-1"
+                  ><img
+                    src="img/eye.png"
+                    alt="Go to website"
+                    class="icon"
+                    tabindex="0"
+                /></a>
+                <a
+                  href="https://github.com/kepplin/odin-rockpaperscissor"
+                  target="_blank"
+                  tabindex="-1"
+                  ><img
+                    src="img/github.png"
+                    alt="Go to repository"
+                    class="icon"
+                    tabindex="0"
+                /></a>
+              </div>
+            </div>
+            <div class="projects">
+              <h3>Recipes</h3>
+              <img
+                src="img/recipes.png"
+                alt="Project: Recipes"
+                class="projectsPic"
+              />
+              <div class="projectsButton">
+                <a
+                  href="https://kepplin.github.io/odin-recipes/index.html"
+                  target="_blank"
+                  tabindex="-1"
+                  ><img
+                    src="img/eye.png"
+                    alt="Go to website"
+                    class="icon"
+                    tabindex="0"
+                /></a>
+                <a
+                  href="https://github.com/kepplin/odin-recipes"
+                  target="_blank"
+                  tabindex="-1"
+                  ><img
+                    src="img/github.png"
+                    alt="Go to repository"
+                    class="icon"
+                    tabindex="0"
+                /></a>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!-- announcements -->
+        <div class="secondColumn">
+          <section class="announcementsSection">
+            <h1 class="announcementsTitle">Announcements</h1>
+            <div class="announcementsContainer">
+              <div class="announcements">
+                <h4 style="color: red">Bug Fixes!</h4>
+                <p>
+                  A bug in the calculator where you cannot subtract negative
+                  numbers. Apart from that, all done.
+                </p>
+              </div>
+              <div class="announcements">
+                <h4 style="color: orange">Consider Styling-</h4>
+                <p>
+                  Rock-Paper-Scissors is currently lacking CSS. Etch-A-Sketch is
+                  looking a bit bland as well.
+                </p>
+              </div>
+              <div class="announcements">
+                <h4 style="color: blue">Extra features?</h4>
+                <p>
+                  Etch-A-Sketch could use some new features, such as a random
+                  colour mode, black and white only mode and the ability to
+                  toggle grid lines. Might want to refactor Rock-Paper-Scissors
+                  code...
+                </p>
+              </div>
+            </div>
+          </section>
+          <!-- trending -->
+          <section class="trendingSection">
+            <h1 class="trendingTitle">Trending</h1>
+            <div class="trendingContainer">
+              <div class="trending">
+                <img src="img/github.png" alt="Github" class="icon" />
+                <p>@kepplin<br />Pranav's Github</p>
+              </div>
+              <div class="trending">
+                <img src="img/linkedin.png" alt="LinkedIn" class="icon" />
+                <p>@pranavsfakelinkedin<br />Pranav's LinkedIn</p>
+              </div>
+              <div class="trending">
+                <img src="img/gmail.png" alt="Gmail" class="icon" />
+                <p>@pranavsfakeemail@gmail.com<br />Pranav's Gmail</p>
+              </div>
+              <div class="trending">
+                <img src="img/twitter.png" alt="Twitter" class="icon" />
+                <p>@pranavsfaketwitter<br />Pranav's Twitter</p>
+              </div>
+            </div>
+          </section>
+        </div>
+      </main>
+    </div>
+  </body>
 </html>
