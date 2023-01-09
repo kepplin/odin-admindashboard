@@ -14,6 +14,8 @@ This project was built for [The Odin Project](https://www.theodinproject.com/les
 
 ## Credits
 
-- ![inspiration](https://user-images.githubusercontent.com/107027281/211228190-c8455013-e579-4e04-aa81-66e4b475e841.png) (Inspiration template)
+- Inspiration template:
+
+![inspiration](https://user-images.githubusercontent.com/107027281/211228190-c8455013-e579-4e04-aa81-66e4b475e841.png)
 
 - https://materialdesignicons.com/ (SVG icon library)
